@@ -3,6 +3,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 # CORS is required so our separate frontend can communicate with this backend
+# CORS is required so our separate frontend can communicate with this backend
 CORS(app) 
 
 tasks = []
